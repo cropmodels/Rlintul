@@ -1,0 +1,101 @@
+!----------------------------------------------------------------------!
+! Information about this file                                          !
+! ===========================                                          !
+! Contents      : Model data file                                      !
+! Creator       : FST translator version 4.12                          !
+! Creation date : 16-Jul-2016, 19:40:18                                !
+! Source file   : LINTUL2NETHERLANDSPARAMS.FST                         !
+!----------------------------------------------------------------------!
+ 
+! contains:
+! - Initial constants as far as specified with INCON statements,
+! - Model parameters,
+! - AFGEN/CSPLIN interpolation functions,
+! - A SCALE array in case of a general translation
+ 
+! Initial constants
+! -----------------
+ZERO   = 0.
+ROOTDI = 0.1
+ 
+! Model parameters
+! ----------------
+WCI    = 0.36
+SLA    = 0.022
+LAII   = 0.012
+TBASE  = 0.
+DOYEM  = 60.
+TSUMAN = 1110.
+RGRL   = 0.009
+LAICR  = 4.
+RDRSHM = 0.03
+LUE    = 3.0
+K      = 0.6
+ROOTDM = 1.2
+RRDMAX = 0.012
+WCST   = 0.55
+WCWET  = 0.48
+WCAD   = 0.08
+WCWP   = 0.23
+WCFC   = 0.36
+DRATE  = 50.
+IRRIGF = 1.
+TRANCO = 8.
+ 
+! Interpolation functions
+! -----------------------
+RDRT =
+    -10., 0.03,
+    10., 0.03,
+    15., 0.04,
+    30., 0.09,
+    50., 0.09 
+ 
+FRTTB =
+    0., 0.50,
+    110., 0.50,
+    275., 0.34,
+    555., 0.12,
+    780., 0.07,
+    1055., 0.03,
+    1160., 0.02,
+    1305., 0.,
+    2500., 0. 
+ 
+FLVTB =
+    0., 0.33,
+    110., 0.33,
+    275., 0.46,
+    555., 0.44,
+    780., 0.14,
+    1055., 0.,
+    2500., 0. 
+ 
+FSTTB =
+    0., 0.17,
+    110., 0.17,
+    275., 0.20,
+    555., 0.44,
+    780., 0.79,
+    1055., 0.97,
+    1160., 0.,
+    2500., 0. 
+ 
+FSOTB =
+    0., 0.,
+    1055., 0.,
+    1160., 0.98,
+    1305., 1.,
+    2500., 1. 
+ 
+ 
+! Size scale of state variables, used by the driver RKDRIV
+! --------------------------------------------------------
+! Zero's lead to relative integration errors EPS for states above 1.0
+! and absolute integration errors EPS for states below 1.0. The value
+! of EPS may be specified in a TIMER statement and is written to the
+! file TIMER.DAT. The default value is 1.0E-4. The number of elements
+! of SCALE is equal to the number of state variables.
+! A non-zero value of SCALE causes Integration errors for the corresponding
+! state variable to be evaluated relative to the value of SCALE.
+SCALExxx = 10*0.0

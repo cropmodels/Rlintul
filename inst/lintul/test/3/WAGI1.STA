@@ -1,0 +1,18 @@
+
+
+
+*** RESULTS OF CROP GROWTH MODEL LINTUL5 (NPK lim.) *** SUMMARY OF OUTPUT FOR CROP GROWTH, YIELD, WATER BALANCE AND NPK UPTAKE, AND STATISTICS ***
+
+Name of run: WAGI1, Station= WAGE , Soil=   1, Crop=   1, Irr.=   1, IOPT=   1, Runof= 0.00, CO2= 370.
+ Wageningen, irrig.,wheat var.1, RUE=3.0                                         
+
+
+YEAR    PL   EMERG FLOW  HALT    WSO     TAGB   HI  PARAB  RUE   DWAV RAIN  ESOIL   TRANS DRAIN RUNOF  IRR   WUE  NUPT   NFIX   NLIV   NLOSS   NUE    PUPT  PLIV   PLOSS   PUE  KUPT   KLIV   KLOSS   KUE    TRANRF   NNI   NPKI  
+1969     0     1   164   221     8504.  17854. 0.48  843.  2.12    6.  406.  118.   277.   80.    0.   64.  4.51  153.2    0.0  146.5   15.1  112.3   28.9   28.4    2.0  603.2  265.1  246.3   35.5   68.8   1.00   1.00   1.00
+
+ MEANS over   1 years  :
+         0.    1.  164.  221.    8504.  17854. 0.48  843.  2.12    6.  406.  118.   277.   80.    0.   64.  4.51  153.2    0.0  146.5   15.1  112.3   28.9   28.4    2.0  603.2  265.1  246.3   35.5   68.8   1.00   1.00   1.00
+ STANDARD DEVIATIONS  :
+         0.    0.    0.    0.       0.      0. 0.00    0.  0.00    0.    0.    0.     0.    0.    0.    0.  0.00    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.00   0.00   0.00
+ VARIATION COEFFICIENTS (%)  : 
+        0.0   0.0   0.0   0.0      0.0     0.0  0.0   0.0   0.0   0.0   0.0   0.0    0.0   0.0   0.0   0.0   0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0    0.0   0.00   0.00   0.00

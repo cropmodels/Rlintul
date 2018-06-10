@@ -1,0 +1,64 @@
+ This file MODEL.LOG was created at 16-July-2016 18:40:33 by
+ ===========================================================
+ program: MAIN
+ version: for FST 4.00
+  author: Kees Rappoldt 1995 2008 2011
+    note: linked with TTUTIL 4.26
+ ===========================================================
+ 
+=================================
+Translator: version FST 4.12
+Module GeneralDrivers: version 3.30
+=================================
+
+ File RERUNS.DAT contains    1 set(s) of  3 variable(s):
+ type sc/ar variable name
+ ---- ----- -------------
+  C     s   CNTR                           
+  I     s   ISTN                           
+  I     s   IYEAR                          
+
+ = Data file contents (set 0) selected =
+ Message from RDSETS: A logfile report is written
+ about the use of the 1 parameter sets on RERUNS.DAT
+
+   Run   0
+   =======
+ Data file   TIMER.DAT with  16 variables parsed by RDINDX
+   EUDRIV: Initialize model
+ Contents of TIMER.DAT recovered from TMP file
+   EUDRIV: Value of DELMAX neglected
+   EUDRIV: Value of EPS neglected
+ Calendar: Initialized
+ Contents of TIMER.DAT recovered from TMP file
+ Data file   MODEL.DAT with  17 variables parsed by RDINDX
+   EUDRIV: DYNAMIC loop
+ WARNING from AFGEN: X-value -10.5500 below defined region of FUNCTION RDRT
+   EUDRIV: Terminate model
+
+ Calendar: Terminated
+
+   Run   1
+   =======
+
+ = Set    1 of rerun file RERUNS.DAT selected =
+ Contents of TIMER.DAT recovered from TMP file
+   EUDRIV: Initialize model
+ Contents of TIMER.DAT recovered from TMP file
+   EUDRIV: Value of DELMAX neglected
+   EUDRIV: Value of EPS neglected
+   Variable values have been overwritten by rerun set    1:
+   IYEAR -----> 1970   
+ Calendar: Initialized
+ Contents of TIMER.DAT recovered from TMP file
+   Variable values have been overwritten by rerun set    1:
+   CNTR -----> 'NLD'   
+   ISTN -----> 1   
+ Contents of MODEL.DAT recovered from TMP file
+   EUDRIV: DYNAMIC loop
+   EUDRIV: Terminate model
+
+ Calendar: Terminated
+ Temporary file TIMERRD$00001.TMP deleted by RDDTMP
+ Temporary file MODELRD$00002.TMP deleted by RDDTMP
+ Temporary file RERUNS.TMP deleted by RDDTMP

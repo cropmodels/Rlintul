@@ -1,0 +1,5 @@
+* RUNNAME  IYEAR INYEAR IDPL  IDEM   IFINIT STATR  SENSP   SENSV   SENSW   SENSR  SENST  CO   ISOIL ICROP  IOPT   IRRI  IOUT       WTRDIR                                     REMARK                                    CONTIN
+'WAGI1'    1969    1    0      1      300   'WAGE'   1.      1.       1.     1.     0.   370.   1     1      1      1     1          ''                      'Wageningen, irrig.,wheat var.1, RUE=3.0'                      'N'
+'WAGW2'    1969    1    0      1      300   'WAGE'   1.      1.       1.     1.     0.   370.   1     1      2      0     1          ''                      'Wageningen, water limit.,wheat var.1, RUE=3.0'                'Y'
+'WAGN3'    1969    1    0      1      300   'WAGE'   1.      1.       1.     1.     0.   370.   1     1      3      0     1          ''                      'Wageningen, water and N limit., wheat var.1, RUE=3.0'         'Y'
+'WAGP4'    1969    1    0      1      300   'WAGE'   1.      1.       1.     1.     0.   370.   1     1      4      0     1          ''                      'Wageningen, water and N-P-K limit., wheat var.1, RUE=3.0'     'Y'

@@ -1,0 +1,30 @@
+**
+** SOIL DATA FILE for use with LINTUL model, May 2011
+**
+** Medium fine (file P1)
+
+** physical soil characteristics 
+
+** volumetric soil moisture contents 
+SMDRY    =   0.150  !  soil moisture content at airdry (pF= 6.0) [cm3/cm3]
+SMW      =   0.200  !  soil moisture content at wilting point (pF= 4.2) [cm3/cm3]
+SMFC     =   0.350  !  soil moisture content at field capacity (pF= 2.3) [cm3/cm3]
+SM0      =   0.450  !  soil moisture content at saturation [cm3/cm3]
+CRAIRC   =   0.07   !  critical soil air content for aeration [cm3/cm3]
+   
+** intial soil moisture contents
+SMI      =   0.300  !  soil moisture content in initial root zone at planting or emergence [cm3/cm3]
+SMLOWI   =   0.300  !  initial soil moisture content in lower zone at planting or emergence [cm3/cm3] 
+
+* maximum effective rooting depth
+RDMSO    =  150.  !  maximum rooting depth as determined by soil structure [cm]
+
+* surface runoff fraction
+RUNFR    =   0.0 ! average fraction of precipitation lost by runoff [-]
+
+* correction factor of time course of soil evaporation (value between 1 and about 4)
+CFEV    =   2.0
+
+* percolation to deeper soil layers
+KSUB    =   10.   ! maximal percolation rate from lower zone to deeper soil layers [cm day-1] 
+  

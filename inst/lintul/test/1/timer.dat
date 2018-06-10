@@ -1,0 +1,52 @@
+!----------------------------------------------------------------------!
+! Information about this file                                          !
+! ===========================                                          !
+! Contents      : Simulation control variables                         !
+! Creator       : FST translator version 4.12                          !
+! Creation date : 16-Jul-2016, 18:40:32                                !
+! Source file   : LINTUL1NETHERLANDSPARAMS.FST                         !
+!----------------------------------------------------------------------!
+ 
+! TRANSLATION_GENERAL control variables
+! -------------------------------------
+! The integration driver is selected by defining DRIVER as
+! EUDRIV = Euler integration with fixed timestep
+! RKDRIV = Runge Kutta integration with adaptive timestep
+!
+! These drivers produce an integration report in MODEL.LOG.
+! The amount of detail is controlled by the size of TRACE:
+! TRACE = 0 --> message on Initial, Dynamic, Terminal
+!       = 1 --> also short initialization report
+!       = 2 --> also reports time and state events ; writes
+!               output times and number of steps to screen
+!       = 3 --> reports integration steps + output times
+!       = 4 --> also reports on state event iteration
+! Note that time and state events are not implemented in FST.
+!
+DRIVER = 'EUDRIV'            ! driver choice
+TRACE  = 0                   ! trace setting
+DELMAX = 242.000             ! Maximum allowed timestep (Runge-Kutta)
+EPS    = 1.0E-4              ! tolerable relative error (Runge-Kutta)
+SEVTOL = 1.0E-5              ! state event function zero-tolerance
+ 
+! TIMER variables used in GENERAL and FSE translation modes
+! ---------------------------------------------------------
+STTIME = 58.                 ! start time
+FINTIM = 300.                ! finish time
+DELT   = 1.                  ! time step (for Runge-Kutta first guess)
+PRDEL  = 1.                  ! output time step
+IPFORM = 5                   ! code for output table format:
+                             ! 4 = spaces between columns
+                             ! 5 = TAB's between columns (spreadsheet output)
+                             ! 6 = two column output
+COPINF = 'N'                 ! Switch variable whether to copy the input files
+                             ! to the output file ('N' = do not copy,
+                             ! 'Y' = copy)
+ 
+! WEATHER control variables
+! -------------------------
+Weather = .true.              ! this specifies weather data
+WTRDIR  = ' '
+CNTR    = 'NLD'               ! Country code
+ISTN    = 1                   ! Station code
+IYEAR   = 1971                ! Year

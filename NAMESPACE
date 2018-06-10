@@ -1,0 +1,5 @@
+useDynLib(Rlintul)
+import(methods, Rcpp)
+importFrom("meteor", "crop<-", "soil<-", "control<-", "weather<-", "run")
+
+exportPattern("^[^\\.]")

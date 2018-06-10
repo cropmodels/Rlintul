@@ -1,0 +1,70 @@
+**
+** Management data file for use with LINTUL5 (NPK) model, August 2011
+**
+** Management type ??
+
+
+** Fertiliser N, P and K applications 
+FERNTAB =   0.,    0.0,  !  kg N/ha
+            99.,   0.0,  ! as function of day number
+            100.,  0.0, 
+            101.,  0.0,
+            124.,  0.0,
+            125., 50.0,
+            126.,  0.0,
+            200.,  0.0
+
+FERPTAB =   0.,    0.0,  !  kg N/ha
+            99.,   0.0,  ! as function of day number
+            100.,  0.0, 
+            101.,  0.0,
+            124.,  0.0,
+            125., 10.0,
+            126.,  0.0,
+            200.,  0.0
+
+FERKTAB =   0.,    0.0,  !  kg N/ha
+            99.,   0.0,  ! as function of day number
+            100.,  0.0, 
+            101.,  0.0,
+            124.,  0.0,
+            125., 50.0,
+            126.,  0.0,
+            200.,  0.0
+
+
+** Recovery fraction of applied fertiliser N, P and K
+NRFTAB  =     0.,  0.70,  !  kg N uptake by the crop per kg fertiliser-N applied
+             200., 0.70   !  as function of day number
+
+PRFTAB  =     0.,  0.20,  !  kg P uptake by the crop per kg fertiliser-P applied
+             200., 0.20   !  as function of day number
+
+KRFTAB  =     0.,  0.60,  !  kg K uptake by the crop per kg fertiliser-K applied
+             200., 0.60   !  as function of day number
+
+
+* Soil N, P and K mineralization
+NMINS    =     30.  !  total mineral soil N available at start of growth period [kg N/ha]
+RTNMINS  =   0.025  ! fraction of soil mineral N coming available per day [day-1]
+
+PMINS   =       3.  !  total mineral soil P available at start of growth period [kg P/ha]
+RTPMINS  =   0.025  ! fraction of soil mineral P coming available per day [day-1]
+
+KMINS   =      20.  !  total mineral soil K available at start of growth period [kg N/ha]
+RTKMINS  =   0.025  ! fraction of soil mineral K coming available per day [day-1]
+
+
+* irrigation water applied 
+IRRTAB   =   0., 0.0,  !  irrigation water applied per day [cm]
+             164.,0.0, !  as function of day number
+             165.,2.0,
+             166.,0.0,
+             200.,0.0,
+             201.,2.0,
+             202.,0.0,
+             220.,0.0,
+             221.,2.0,
+             222.,0.0,
+             365.,0.0 
+

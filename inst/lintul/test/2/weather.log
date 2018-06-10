@@ -1,0 +1,26 @@
+*---------------------------------------------------------*
+*   Country: Netherlands
+*   Station: Wageningen
+*      Year: 1971
+*    Source: Dep. of Meteorology, Wageningen Agricultural
+*            University.
+*    Author: Peter Uithol
+* Longitude: 05 40 E
+*  Latitude: 51 58 N
+* Elevation: 7 m.
+*  Comments: Location Haarweg. Humidity measured as dew
+*            point temperature at 14.00 h., wind speed
+*            (height: 2 m).5 m height (?).
+*
+*  Columns:
+*  ========
+*  station number
+*  year
+*  day
+*  irradiation (kJ m-2 d-1)
+*  minimum temperature (degrees Celsius)
+*  maximum temperature (degrees Celsius)
+*  vapour pressure (kPa)
+*  mean wind speed (m s-1)
+*  precipitation (mm d-1)
+*---------------------------------------------------------*
